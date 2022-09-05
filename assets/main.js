@@ -75,3 +75,26 @@ $(document).ready(function () {
     Section6.scrollIntoView();
   });
 });
+
+// CROUSEL====================TEAM===================CLASS================START
+$(".slider").slick({
+  infinite: true,
+  arrows: false,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 0.5,
+        slidesToScroll: 0.5,
+        dots: true,
+        arrows: false,
+        dots: true,
+      },
+    },
+  ],
+});

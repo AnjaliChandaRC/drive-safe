@@ -764,6 +764,10 @@ a {
     font-size: 20.61px;
 }
 
+.mx_w_250 {
+    max-width: 283px;
+}
+
 @media (max-width:1099.08px) {
     .seat_img {
         width: 75%;
@@ -781,4 +785,25 @@ a {
 
 .stat_img {
     max-width: 300px;
+}
+
+/*FOOTER CSS START==============================*/
+.social_icons {
+    transition: all 0.3s ease-in-out;
+}
+
+.social_icons:hover svg path {
+    fill: #cc2c19;
+}
+
+.social_icons:hover svg circle {
+    color: var(--white);
+}
+
+.big_tyre {
+    top: -25%;
+}
+
+.big_tyre_2 {
+    top: -20%;
 }
